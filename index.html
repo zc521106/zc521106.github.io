@@ -7,106 +7,112 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!doctype html>
 <html>
 <head>
-<title>赵超的个人主页</title>
-<link href="css/style.css" rel='stylesheet' type='text/css' media="all" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Stylish Deco Profile Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--webfonts-->
-<script src="js/jquery-1.11.1.min.js"></script>
-  <script src= "js/moment-2.2.1.js"></script>
-<link href='//fonts.googleapis.com/css?family=Ubuntu:300,700italic,300italic,400,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
-<!--/webfonts-->
+    <title>赵超的个人主页</title>
+    <link href="css/style.css" rel='stylesheet' type='text/css' media="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!--webfonts-->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/moment-2.2.1.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Ubuntu:300,700italic,300italic,400,400italic,500,500italic,700'
+          rel='stylesheet' type='text/css'>
+    <!--/webfonts-->
 </head>
 <body>
-	<div class="wrap">
-	<header>
-		<h1>赵超的个人名片</h1>
-	</header>
-		<div class="profile">
-			<div class="user">
-				<div class="star"> </div>
-				<div class="men">
-				<img src="images/user.png" alt="" />
-				</div>
-				<div class="pencil"> </div>
-					<div id="dd1" class="wrapper-dropdown-3" tabindex="1">
-	<span><img src="images/menu.png" alt="Navbar"/></span>
-			<ul class="dropdown">
-				<li><a href="#">Alarm</a></li>
-				<li><a href="#">Dual Clock</a></li>
-				<li><a href="#">Notes</a></li>
-				<li><a href="#">Reminder</a></li>
-				<li><a href="#">To-Do List</a></li>
-				<li><a href="#">World Clock</a></li>
-			</ul>
-			<script type="text/javascript">
-				function DropDown(el) {
-				this.dd = el;
-				this.initEvents();
-				}
-				DropDown.prototype = {
-				initEvents : function() {
-				var obj = this;					
-				obj.dd.on('click', function(event){
-				$(this).toggleClass('active');
-				event.stopPropagation();
-				});	
-				}
-				}
-				$(function() {
-				var dd = new DropDown( $('#dd1') );
-				$(document).click(function() {
-				// all dropdowns
-				$('.wrapper-dropdown-3').removeClass('active');
-				});
-				});
-			</script>
-			</div>
-			<div class="clear"> </div>
-			<h2>赵 超</h2>
-			</div>
-		</div>
-		<div class="sub-profile">
-			<div class="sp1">
-				<div class="phone">
-					<img src="images/ph.png" alt=""/>
-				</div>
-				<div class="ph-text">
-					<span>Mobile</span>
-					<p>187 0132 1850</p>
-				</div>
-				<div class="msg">
-					<img src="images/msg.png" alt=""/>
-				</div>
-				<div class="clear"> </div>
-			</div>
-			<div class="sp2">
-				<div class="mail">
-					<img src="images/mail.png" alt=""/>
-				</div>
-				<div class="mail-text">
-					<span>E-mail</span>
-					<p><a href="mailto:example@mail.com">773134958@qq.com</a></p>
-				</div>
-				<div class="clip">
-					<img src="images/clip.png" alt=""/>
-				</div>
-				<div class="clear"> </div>
-			</div>
-			</div>
-			<div class="social">
-		<ul>
-			<li><a href="#"><span class="fb"></span></a></li>
-			<li><a href="#"><span class="twit"></span></a></li>
-			<li><a href="#"><span class="google"></span></a></li>
-			<li><a href="#"><span class="link"></span></a></li>
-			</ul>
-			<div class="clear"> </div>
-	</div>
-		<div class="footer">
-			<p>Copyright © 2017 zc521106. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">zc521106</a></p>
-		</div>
+<div class="wrap">
+    <header>
+        <h1>赵超的个人名片</h1>
+    </header>
+    <div class="profile">
+        <div class="user">
+            <div class="star"></div>
+            <div class="men">
+                <img src="images/user.png" alt=""/>
+            </div>
+            <div class="pencil"></div>
+            <div id="dd1" class="wrapper-dropdown-3" tabindex="1">
+                <span><img src="images/menu.png" alt="Navbar"/></span>
+                <ul class="dropdown">
+                    <li><a href="#">Alarm</a></li>
+                    <li><a href="#">Dual Clock</a></li>
+                    <li><a href="#">Notes</a></li>
+                    <li><a href="#">Reminder</a></li>
+                    <li><a href="#">To-Do List</a></li>
+                    <li><a href="#">World Clock</a></li>
+                </ul>
+                <script type="text/javascript">
+                    function DropDown(el) {
+                        this.dd = el;
+                        this.initEvents();
+                    }
+                    DropDown.prototype = {
+                        initEvents: function () {
+                            var obj = this;
+                            obj.dd.on('click', function (event) {
+                                $(this).toggleClass('active');
+                                event.stopPropagation();
+                            });
+                        }
+                    }
+                    $(function () {
+                        var dd = new DropDown($('#dd1'));
+                        $(document).click(function () {
+                            // all dropdowns
+                            $('.wrapper-dropdown-3').removeClass('active');
+                        });
+                    });
+                </script>
+            </div>
+            <div class="clear"></div>
+            <h2>赵 超</h2>
+        </div>
+    </div>
+    <div class="sub-profile">
+        <div class="sp1">
+            <div class="phone">
+                <img src="images/ph.png" alt=""/>
+            </div>
+            <div class="ph-text">
+                <span>Mobile</span>
+                <p>187 0132 1850</p>
+            </div>
+            <div class="msg">
+                <img src="images/msg.png" alt=""/>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="sp2">
+            <div class="mail">
+                <img src="images/mail.png" alt=""/>
+            </div>
+            <div class="mail-text">
+                <span>E-mail</span>
+                <p><a href="mailto:example@mail.com">773134958@qq.com</a></p>
+            </div>
+            <div class="clip">
+                <img src="images/clip.png" alt=""/>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="social">
+        <ul>
+            <li><a href="#"><span class="fb"></span></a></li>
+            <li><a href="#"><span class="twit"></span></a></li>
+            <li><a href="#"><span class="google"></span></a></li>
+            <li><a href="#"><span class="link"></span></a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="footer">
+        <p>Copyright © 2017 zc521106. All Rights Reserved | Design by <a href="https://123.207.153.251/" target="_blank">zc521106</a>
+        </p>
+    </div>
 </body>
 </html>
